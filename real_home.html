@@ -117,6 +117,14 @@ $('.teaser').hover(
 	});  
 
 }
+function setYears(){
+	$('li.paperyear').each(function(){
+	var element = $( this );
+						if ( element.is( "[year]" ) ) {
+							element.prepend('<hr class="fancy-line"></hr><div class="tab">'+element.attr('year')+"</div>")
+						}
+					});
+}
 </script>
 
 <script type="text/javascript" src="html/JS/tracking/track_clicks.js"></script>
@@ -125,17 +133,20 @@ $('.teaser').hover(
 </head>
 
 <body onload="setMail(); setEaster();setTooltip();setOpacity();
-//$('.fancy-line').hide();
 
-$('.vline').hide();
+
+
 setVline();
-$('.vline').slideDown(2000);
-//$('.fancy-line').show('clip',{direction:'right'},  1000);
-$('.fancy-line').delay(1000).animate({
+$('.vline').hide();
+$('.vline').slideDown(1200);
+//setYears();
+
+
+	$('.fancy-line').each(function(ind){$(this).delay(ind*250+300).animate({
     
     width:'100%'
 },500);
-
+});
 " >
 
 	<div id="main" >
@@ -186,8 +197,7 @@ $('.fancy-line').delay(1000).animate({
 			<span class="heading">Publications</span>
 			<span style="color:rgb(100,150,180)">(hover over a project's image for a one-sentence summary)</span>
 			<ol style="padding:0px;list-style-type:none">
-					<hr class="fancy-line"/>
-			<li class="paperyear">
+			<li class="paperyear" year="2017">
 					<ol>
 					<li class="paper-entry" style="position:relative">
 
@@ -242,8 +252,8 @@ $('.fancy-line').delay(1000).animate({
 				</li>
 				</ol>
 		</li>
-				<hr class="fancy-line"/>
-				<li class="paperyear">
+				<li class="paperyear" year="2016">
+				
 					<ol>
 						<li class="paper-entry" style="position:relative">
 
@@ -273,8 +283,7 @@ $('.fancy-line').delay(1000).animate({
 
 			</ol>
 		</li>
-		<hr class="fancy-line"/>
-		<li class="paperyear">
+		<li class="paperyear" year="2015">
 			<ol>				
 				<li class="paper-entry" style="position:relative">
 
@@ -350,8 +359,7 @@ $('.fancy-line').delay(1000).animate({
 				</li>
 			</ol>
 		</li>
-		<hr class="fancy-line"/>
-		<li class="paperyear">
+		<li class="paperyear" year="2014">
 			<ol>						
 				<li class="paper-entry" style="position:relative">
 
@@ -392,8 +400,8 @@ $('.fancy-line').delay(1000).animate({
 				</li>
 			</ol>
 		</li>
-		<hr class="fancy-line"/>
-		<li class="paperyear">
+		<li class="paperyear" year="2013">
+
 			<ol>	
 				<li class="paper-entry">
 
