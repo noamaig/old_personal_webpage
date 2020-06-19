@@ -10,7 +10,7 @@
 	<script type="text/javascript" src="html/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="html/jquery/jquery-ui.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="html/jquery/jquery-ui.min.css"/>
-
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -131,7 +131,7 @@ function setYears(){
 
 </head>
 
-<body onload="setMail(); setEaster();setTooltip();setOpacity();
+<body onload="setMail();setTooltip();setOpacity();
 
 
 
@@ -159,13 +159,12 @@ $('.vline').slideDown(1200);
 				</div>	
 			</div>
 			<div >
-				<div class="heading">Noam Aigerman</div>
+				<div class="heading">Noam Aigerman<br/><span style="font-size: 80%">Research Scientist, Adobe Research</span></div>
 				<div style="font-size:98%">
 
-					<b>Email</b> <span class="emailplace">lastname@adobe.com</span>
-					<br/><br/>
-					I am a research scientist at Adobe Research. Before that I did my PhD at the Weizmann Institute of Science under the supervision of Prof. Yaron Lipman.<br/>
-					<br/> My main fields of interest are <span style="font-weight:bold"> Geometry Processing, Numerical Optimization</span> and <span style="font-weight:bold">Computer Graphics</span>.
+					 <span class="emailplace">lastname@adobe.com</span>
+					<br/>
+					<br/> My research lies within the areas of geometry processing, computer graphics, deep learning, optimization, and the intersection between them.  </span>.
 				</div>
 			</div>
 		</div>
@@ -177,15 +176,44 @@ $('.vline').slideDown(1200);
 		</div>
 		<div class="vline" > </div>
 		<hr class="fancy-line"/>
-		<div class="heading">Teaching</div>
+		<!--<div class="heading">Teaching</div>
 		2016: Minicourse on computational aspects of mappings at the <a href= "http://www.geometrysummit.org/summerschool/program.html">IGS summer school</a>.<br> 
 		2015: Co-organizing the Seminar on Advanced Topics in Optimization with Shahar Kovalsky.<br>
 		2013: TA for "Numerical Linear Algebra and Convex Optimization".
-		<hr class="fancy-line" />
+		<hr class="fancy-line" />-->
 		<div id="pub">
 			<span class="heading">Publications</span>
 			<span style="color:rgb(100,150,180)">(hover over a project's image for a one-sentence summary)</span>
 			<ol style="padding:0px;list-style-type:none">
+				<li class="paperyear" year="2020">
+					<ol>
+					<li class="paper-entry" style="position:relative">
+									
+					
+					
+ 
+
+					<img alt="Deforming humanoids to match example poses via a neural network, while preserving details." src="html/projects/ncages/deformation_transfer.jpg" class="teaser"  title="Using cage deformations to enable networks to deform shapes without ruining/smoothing out details." />
+								<!--<div style="position:relative">
+									<div class="desc"  style="position:absolute;background-color:white;z-index:1">A low distortion bijective map between 2 surface-meshes.</div>
+								</div>
+							</div>-->
+							<div class="paper-cell">
+
+								<b>Neural Cages for Detail-Preserving 3D Deformations</b><br/>
+								<div class="paper-data"><span class="authors">Wang Yifan, <span class="hi">Noam Aigerman</span>, Vladimir G. Kim, Siddhartha Chaudhuri, <span style="white-space: nowrap">Olga Sorkine-Hornung</span></span>
+									CVPR 2020 (oral)<br/>
+									 <a class="paper-link" href="html/projects/ncages/paper.pdf" data-size="4.5">Paper</a> | <a  href="https://yifita.github.io/project/neural-shape/" data-size="2">Project Page</a> 
+								</div>	
+								<!--<div style="position:relative">
+							<div class="desc"  style="position:absolute;background-color:white;z-index:1">A low distortion bijective map between 2 surface-meshes.</div>
+						</div>-->
+
+							</div>
+							<div style="clear:both;"></div>
+					</li>
+				</ol>
+				</li>
 			<li class="paperyear" year="2017">
 					<ol>
 					<li class="paper-entry" style="position:relative">
@@ -208,7 +236,7 @@ $('.vline').slideDown(1200);
 							<div class="desc"  style="position:absolute;background-color:white;z-index:1">A low distortion bijective map between 2 surface-meshes.</div>
 						</div>-->
 
-					</div>
+							</div>
 
 					<div style="clear:both;"></div>
 
@@ -312,7 +340,8 @@ $('.vline').slideDown(1200);
 								<b>Large Scale Bounded Distortion Mappings</b><br/>
 								<div class="paper-data"><span class="authors">Shahar Kovalsky, <span class="hi">Noam Aigerman</span>, Ronen Basri, Yaron Lipman</span>
 									ACM SIGGRAPH Asia 2015<br/>
-									<a class="paper-link" href="html/projects/largescale/LargeScaleBD.pdf" data-size="57">Paper</a> | <a class="paper-link" href="html/projects/largescale/LargeScaleBD_lowRes.pdf" data-size="4">Low Res</a> 
+									<a class="paper-link" href="html/projects/largescale/LargeScaleBD.pdf" data-size="57">Paper</a> | <a class="paper-link" href="html/projects/largescale/LargeScaleBD_lowRes.pdf" data-size="4">Low Res</a> |
+									<a href = "https://shaharkov.github.io/LargeScaleBD.html">Project Page</a>
 								</div>	
 								<!--<div style="position:relative">
 							<div class="desc"  style="position:absolute;background-color:white;z-index:1">A low distortion bijective map between 2 surface-meshes.</div>
