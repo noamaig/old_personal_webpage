@@ -106,8 +106,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(245,245,2
 /*margin-left:calc(20%);
 margin-right:20%;
 margin-bottom:3%;*/
-margin-left: 40px;
-margin-right: 40px; 
+margin-left: 15%;
+margin-right: 15%; 
 /*background-color:rgb(254,252,253);*/
 background: rgb(254,252,253); /* Old browsers */
 background: -moz-linear-gradient(90deg,  rgb(254,252,253) 99%, rgb(245,245,245) 100%); /* FF3.6+ */
@@ -128,10 +128,10 @@ font-family: 'Open Sans', sans-serif;
 .vline{
   border-left-color: rgb(255,230,230);
   border-left-style: solid;
-  border-left-width: 2px;
+  border-left-width: 0.1px;
   height: 0px;
   position: absolute;
-  left: 90px;
+  left: 18%;
   top: 192px;
   width=100%;
   display: : none;
