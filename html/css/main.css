@@ -84,7 +84,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(245,245,2
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  }}
+  }
   tr td:first-child {
     -moz-border-radius-topleft: 15px;
     -moz-border-radius-bottomleft: 15px;
@@ -102,17 +102,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(245,245,2
   tr{
     border: 2px solid blue;
   }
-  #main-container{
+#main_container{
     margin-left: 2%;
-margin-right: 2%;
-  }
-  #main{
-/*margin-left:calc(20%);
-margin-right:20%;
-margin-bottom:3%;*/
-/*margin-left: 20%;
-margin-right: 20%;*/ 
-/*background-color:rgb(254,252,253);*/
+    margin-right: 2%;
+}
+#main{
+
 background: rgb(254,252,253); /* Old browsers */
 background: -moz-linear-gradient(90deg,  rgb(254,252,253) 99%, rgb(245,245,245) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left , right , color-stop(99%,rgb(254,252,253)), color-stop(100%,rgb(245,245,245))); /* Chrome,Safari4+ */
