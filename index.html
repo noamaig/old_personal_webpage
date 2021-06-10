@@ -24,10 +24,11 @@
 	<script type="text/javascript">  
 		function setVline(e){
 			a=$('.vline').first();
-			b=$('.paper-entry').last();
+			p=$('.paper-entry').last();
 			t=a.offset().top;
-			b=b.offset().top + b.outerHeight(true);
+			b=p.offset().top + p.outerHeight(true);
 			a.height(b-t-20);
+			a.css("left",  p.position().left-20);
 
 		}
 		$(window).resize(setVline);
@@ -148,7 +149,7 @@ $('.fancy-line').each(function(ind){$(this).delay(ind*250+300).animate({
 },500);
 });
 " >
-
+<div id = "main_container">
 <div id="main" >
 	<div>
 
@@ -656,6 +657,7 @@ $('.fancy-line').each(function(ind){$(this).delay(ind*250+300).animate({
 			</ol>
 		</li>
 	</ol>
+</div>
 </div>
 </div>
 

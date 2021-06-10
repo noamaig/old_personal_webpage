@@ -102,12 +102,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(245,245,2
   tr{
     border: 2px solid blue;
   }
+  #main-container{
+    margin-left: 2%;
+margin-right: 2%;
+  }
   #main{
 /*margin-left:calc(20%);
 margin-right:20%;
 margin-bottom:3%;*/
-margin-left: 15%;
-margin-right: 15%; 
+/*margin-left: 20%;
+margin-right: 20%;*/ 
 /*background-color:rgb(254,252,253);*/
 background: rgb(254,252,253); /* Old browsers */
 background: -moz-linear-gradient(90deg,  rgb(254,252,253) 99%, rgb(245,245,245) 100%); /* FF3.6+ */
@@ -122,6 +126,8 @@ padding-right:40px;
 padding-top:30px;
 font-size:15px;
 font-family: 'Open Sans', sans-serif;
+max-width: 900px;
+margin: 0 auto;
 }
 
 
@@ -132,7 +138,7 @@ font-family: 'Open Sans', sans-serif;
   height: 0px;
   position: absolute;
   left: 18%;
-  top: 192px;
+  top: 205px;
   width=100%;
   display: : none;
 }
@@ -142,7 +148,7 @@ hr.fancy-line{
   width:0%;
   margin-top: 10px;
   margin-bottom: 20px;
-  margin-left: -25px;
+  margin-left: -35px;
   /*display: none;*/
   background-image: -webkit-linear-gradient(left, rgba(20, 0, 255, 0.1), rgba(20, 0, 255, 0.00), rgba(20, 0, 255, 0.01), rgba(20, 0, 255, 0.01));
   background-image:    -moz-linear-gradient(left, rgba(20, 0, 255, 0.1), rgba(20, 0, 255, 0.00), rgba(20, 0, 255, 0.01), rgba(20, 0, 255, 0.01));
