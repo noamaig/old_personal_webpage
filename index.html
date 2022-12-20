@@ -186,6 +186,83 @@ $('.fancy-line').each(function(ind){$(this).delay(ind*250+300).animate({
 
 
 							<!--<div class="teaser">-->
+								<img  src="html/projects/isoinj/isoinj.jpg" alt="Top: our previous method can produce a 1-to-1 UV map of the bunny into the cross, but has distortion and scales some parts of mesh (in red). Bottom: this paper can also compute a 1-to-1 UV map, but also ensure it has low distortion and less scaling." class="teaser"  title="An energy that penalizes both lack of injectivity and high isometric distortion at the same time, enabling computation of 1-to-1 and low-distortion maps with arbitrary positional constraints."  />
+								<!--<div style="position:relative">
+									<div class="desc"  style="position:absolute;background-color:white;z-index:1">A low distortion bijective map between 2 surface-meshes.</div>
+								</div>
+							</div>-->
+							<div class="paper-cell">
+
+								<b>PatchRD: Detail-Preserving Shape Completion by Learning Patch Retrieval and Deformation</b><br/>
+								<div class="paper-data"><span class="authors"> Xingyi Du, Danny M. Kaufman, Qingnan Zhou, Shahar Z. Kovalsky, Yajie Yan, <span class="hi">Noam Aigerman</span>, Tao Ju</span>
+									ACM SIGGRAPH Asia 2022<br/>
+									<a href="https://duxingyi-charles.github.io/publication/isometric-energies-for-recovering-injectivity-in-constrained-mapping/">Project page</a>
+								</div>
+								<!--<div style="position:relative">
+							<div class="desc"  style="position:absolute;background-color:white;z-index:1">A low distortion bijective map between 2 surface-meshes.</div>
+						</div>-->
+
+							</div>
+
+							<div style="clear:both;"></div>
+
+						</li>
+						
+						<li class="paper-entry" style="position:relative">
+
+
+							<!--<div class="teaser">-->
+								<img  src="html/projects/patchRD/patchRD.jpg" alt="A chair with parts of it missing (left) is completed by our method to a full chair (middle) by copying and transforming existing parts to missing areas, while competing generative approaches produce fuzzy approximiations (right)." class="teaser"  title="Training a network to complete missing parts of a shape by copying and transforming existing parts of the input."  />
+								<!--<div style="position:relative">
+									<div class="desc"  style="position:absolute;background-color:white;z-index:1">A low distortion bijective map between 2 surface-meshes.</div>
+								</div>
+							</div>-->
+							<div class="paper-cell">
+
+								<b>PatchRD: Detail-Preserving Shape Completion by Learning Patch Retrieval and Deformation</b><br/>
+								<div class="paper-data"><span class="authors">Bo Sun, Vladimir G. Kim, <span class="hi">Noam Aigerman</span>, Qixing Huang, Siddhartha Chaudhuri</span>
+									ECCV 2022 <br/>
+									<a href="https://arxiv.org/abs/2207.11790">Paper</a> | <a href="https://github.com/GitBoSun/PatchRD">Code</a>
+								</div>
+								<!--<div style="position:relative">
+							<div class="desc"  style="position:absolute;background-color:white;z-index:1">A low distortion bijective map between 2 surface-meshes.</div>
+						</div>-->
+
+							</div>
+
+							<div style="clear:both;"></div>
+
+						</li>
+
+						<li class="paper-entry" style="position:relative">
+
+
+							<!--<div class="teaser">-->
+								<img  src="html/projects/joint_atlases/joint_atlases.jpg" alt="Our method produces an atlas with a complex topology for a set of shapes." class="teaser"  title="Computing a UV layout for given shapes by representing the map as a mixture of gaussians, enabling defining arbitrary topologies."  />
+								<!--<div style="position:relative">
+									<div class="desc"  style="position:absolute;background-color:white;z-index:1">A low distortion bijective map between 2 surface-meshes.</div>
+								</div>
+							</div>-->
+							<div class="paper-cell">
+
+								<b>Learning Joint Surface Atlases</b><br/>
+								<div class="paper-data"><span class="authors">Theo Deprelle, Thibault Groueix, <span class="hi">Noam Aigerman</span>, Vladimir G. Kim, Mathieu Aubry</span>
+									ECCV Workshop on Learning to Generate 3D Shapes and Scenes, 2022 <br/>
+									<a href="https://arxiv.org/abs/2206.06273">Paper</a> | <a href="https://github.com/TheoDEPRELLE/Joint-Atlas-Surfaces">Code</a>
+								</div>
+								<!--<div style="position:relative">
+							<div class="desc"  style="position:absolute;background-color:white;z-index:1">A low distortion bijective map between 2 surface-meshes.</div>
+						</div>-->
+
+							</div>
+
+							<div style="clear:both;"></div>
+
+						</li>
+						<li class="paper-entry" style="position:relative">
+
+
+							<!--<div class="teaser">-->
 								<img  src="html/projects/NJF/NJF.jpg" alt="left: a UV map predicted by the network, almost identical to the ground-truth. Right: the network correctly reposes the bunny to the poses demonstrated by the human." class="teaser"  title="A framework for learning to deform meshes in a highly detail-preserving manner, without being tied to a specific mesh."  />
 								<!--<div style="position:relative">
 									<div class="desc"  style="position:absolute;background-color:white;z-index:1">A low distortion bijective map between 2 surface-meshes.</div>
@@ -207,6 +284,25 @@ $('.fancy-line').each(function(ind){$(this).delay(ind*250+300).animate({
 							<div style="clear:both;"></div>
 
 						</li>
+						<!-- <li class="paper-entry" style="position:relative">
+
+
+								<img  src="html/projects/mobiusconv/mobiusconv.jpg" alt="The scheme for equivariant transformations" class="teaser"  title="A formulation of spherical CNN's that are equivariant to mobius transformations,."  />
+								
+							<div class="paper-cell">
+
+								<b>Neural Jacobian Fields: Learning Intrinsic Mappings of Arbitrary Meshes</b><br/>
+								<div class="paper-data"><span class="authors"><span class="hi">Noam Aigerman</span>, Kunal Gupta, Vladimir Kim, Siddhartha Chaudhuri,  Jun Saito, Thibault Groueix</span>
+									ACM SIGGRAPH 2022 (journal track)<br/>
+									<a href="https://arxiv.org/abs/2205.02904">Paper</a> | <a href="https://github.com/ThibaultGROUEIX/NeuralJacobianFields">Code</a>
+								</div>
+								
+
+							</div>
+
+							<div style="clear:both;"></div>
+
+						</li> -->
 						<li class="paper-entry" style="position:relative">
 
 
