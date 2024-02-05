@@ -132,1489 +132,1596 @@ $('.fancy-line').each(function(ind){$(this).delay(ind*250+300).animate({
 });
 " >
 <div id = "main_container">
-<div id="main" >
-	<div class = "fancy-border">
-				<div style="margin-bottom: -8px;">
-					<span class="heading title">Noam Aigerman </span>
-					<span class="pronounce-tip">   (pronounced "Noh-uhm", like Noah with an M at the end.)</span>
-				</div>
+	<div id="main"> 
+		<div style="display: grid;">
+			<div id="infobox">
+				<!-- <div style="display: grid;grid-template-columns: min-content min-content;"> 
 
-			</div>
-	<div style="display: grid;">
-		<div style="grid-column: 1;">
+					<div class="fancy-border" style="float: left;grid-column: 1;">
+						<div class="heading title" style="margin-bottom: -8px;white-space: nowrap;">
+							Noam Aigerman 
+						</div>
+					</div>
+					<div style="grid-column: 2;display: flex; align-items: end;">
+						<span class="pronounce-tip">   (pronounced "Noh-uhm", like Noah with an M at the end.)</span>
+					</div>
+				</div>	 -->
+				<!-- <div class="fancy-border"> -->
+					<div id="name">
+						<span class="fancy-border"><span class="heading title">Noam Aigerman </span></span>
+						<span class="pronounce-tip">   (pronounced "Noh-uhm", like Noah with an M at the end.)</span>
+					</div>
+
+				<!-- </div> -->
 			
-			
-			<div class style="padding-top: 5px;padding-left:5px;font-weight: bold;">
-				<div style="font-size: 1.05em;" class="subheading">
-					<span style>Assistant Professor,</span> <span style="font-style:italic;">University of Montreal</span>
+				<div>
+					<div style="clear: both;" class="subheading"><!-- padding-top: 12px; -->
+						<div id = "affiliations">
+							<span style="white-space: nowrap;">Assistant Professor,</span> <span style="white-space: nowrap;"><a target="_blank"  href="https://www.umontreal.ca/en/">University of Montreal</a></span><br>
+							<span style="white-space: nowrap;">Associate Academic Member,</span> <span style="white-space: nowrap;"><a target="_blank" href="https://mila.quebec/en/">Mila</a></span>
+						</div>
+						
+						<div style="font-size: 70%; padding-top:36px;padding-left: 1px;display: grid;  align-items: center;grid-template-columns: min-content auto;">
+							<!-- <div style=""> -->
+								<div style="  grid-column: 1">
+									<a id="email-link" href="noam.aigerman@umontreal.ca">
+										<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"  stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round">
+											<title>Email</title>
+											<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+											<polyline points="22,6 12,13 2,6"/>
+									</svg></a>
+								</div>
+								<div style="  grid-column: 2"><span><a href="mailto:noam.aigerman@umontreal.ca">noam.aigerman@umontreal.ca</a></span></div>
+								
+								
+								<div style="padding-right: 10px; grid-column: 1;">
+									<a href="https://maps.app.goo.gl/a9y59VGZeBpYYGjN8" target ="_blank"><svg  class="icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<title>Google Maps</title>
+										<path d="M19.527 4.799c1.212 2.608.937 5.678-.405 8.173-1.101 2.047-2.744 3.74-4.098 5.614-.619.858-1.244 1.75-1.669 2.727-.141.325-.263.658-.383.992-.121.333-.224.673-.34 1.008-.109.314-.236.684-.627.687h-.007c-.466-.001-.579-.53-.695-.887-.284-.874-.581-1.713-1.019-2.525-.51-.944-1.145-1.817-1.79-2.671L19.527 4.799zM8.545 7.705l-3.959 4.707c.724 1.54 1.821 2.863 2.871 4.18.247.31.494.622.737.936l4.984-5.925-.029.01c-1.741.601-3.691-.291-4.392-1.987a3.377 3.377 0 0 1-.209-.716c-.063-.437-.077-.761-.004-1.198l.001-.007zM5.492 3.149l-.003.004c-1.947 2.466-2.281 5.88-1.117 8.77l4.785-5.689-.058-.05-3.607-3.035zM14.661.436l-3.838 4.563a.295.295 0 0 1 .027-.01c1.6-.551 3.403.15 4.22 1.626.176.319.323.683.377 1.045.068.446.085.773.012 1.22l-.003.016 3.836-4.561A8.382 8.382 0 0 0 14.67.439l-.009-.003zM9.466 5.868L14.162.285l-.047-.012A8.31 8.31 0 0 0 11.986 0a8.439 8.439 0 0 0-6.169 2.766l-.016.018 3.665 3.084z"/>
+									</svg>
+								</div>
+								<div id="address" style="grid-column: 2;">
+									<span style="font-weight: bold;">Room 3359</span>,
+									Pavillon André-Aisenstadt
+									<br>C.P. 6128, succ. Centre-Ville, Montréal, Québec, Canada H3C 3J7
+								</div></a>	
+							<!-- </div> -->
+							
+							<div style="  grid-column: 1">
+								<a href="https://scholar.google.com/citations?user=eO2xkdMAAAAJ&hl=en" target="_blank" >
+									<svg class="icon" role="img" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+										<title>Google Scholar</title>
+										<path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>
+									</svg></a>
+							</div>
+							<div style="  grid-column: 2">
+								<a href="https://scholar.google.com/citations?user=eO2xkdMAAAAJ&hl=en" target="_blank" >
+									Google Scholar</a>
+							</div>
+							<div style="  grid-column: 1">
+								<a href="https://twitter.com/AigermanNoam" target="_blank">
+									<svg class="icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<title>Twitter</title>
+										<path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+									</svg></a>
+							</div>
+							<div style="  grid-column: 2">
+								<a href="https://twitter.com/AigermanNoam" target="_blank">
+									Twitter
+							</div>
+							<div style="  grid-column: 1">
+								<a href = "https://outlook.office365.com/calendar/published/bfb42cda911e483c804e1aa24b7005d5@umontreal.ca/9effdc18dae74e6d9048daaeaf1440db12973665910407921392/calendar.html" target="_blank">
+									<svg class="icon" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" style="enable-background:new 0 0 45 45;" xml:space="preserve" version="1.1" id="svg2"><metadata id="metadata8"><rdf:RDF><cc:Work rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/></cc:Work></rdf:RDF></metadata><defs id="defs6"><clipPath id="clipPath18" clipPathUnits="userSpaceOnUse"><path id="path20" d="M 0,36 36,36 36,0 0,0 0,36 Z"/></clipPath><clipPath id="clipPath30" clipPathUnits="userSpaceOnUse"><path id="path32" d="M 6,32 C 3.791,32 2,30.209 2,28 L 2,28 2,4 C 2,1.791 3.791,0 6,0 l 0,0 24,0 c 2.209,0 4,1.791 4,4 l 0,0 0,24 c 0,2.209 -1.791,4 -4,4 l 0,0 -24,0 z"/></clipPath><clipPath id="clipPath40" clipPathUnits="userSpaceOnUse"><path id="path42" d="M 0,36 36,36 36,0 0,0 0,36 Z"/></clipPath></defs><g transform="matrix(1.25,0,0,-1.25,0,45)" id="g10"><path id="path12" style="stroke-width:1px" d="m 28.814,29.609 1.996,0 0,2.391 -1.996,0 0,-2.391 z"/><g id="g14"><g clip-path="url(#clipPath18)" id="g16"><g transform="translate(30,32)" id="g22"><path id="path24" style="stroke-width:1px" d="m 0,0 -24,0 c -2.209,0 -4,-1.791 -4,-4 l 0,-24 c 0,-2.209 1.791,-4 4,-4 l 24,0 c 2.209,0 4,1.791 4,4 L 4,-4 C 4,-1.791 2.209,0 0,0"/></g></g></g><g id="g26"><g clip-path="url(#clipPath30)" id="g28"><path id="path34" style="stroke-width:1px" d="m 34,23 -32,0 0,9 32,0 0,-9 z"/></g></g><g id="g36"><g clip-path="url(#clipPath40)" id="g38"><g transform="translate(8.8359,27.2695)" id="g44"><path id="path46" style="stroke-width:1px" d="m 0,0 c -0.702,0 -1.271,0.666 -1.271,1.489 0,0.823 0.569,1.49 1.271,1.49 0.701,0 1.27,-0.667 1.27,-1.49 C 1.27,0.666 0.701,0 0,0"/></g><g transform="translate(9.543,28.917)" id="g48"><path id="path50" style="stroke-width:1px" d="m 0,0 c -0.055,0.479 -0.374,0.792 -0.729,1.017 -0.485,0.306 -1,1.007 -1,1.876 0,1.105 0.671,2.095 1.5,2.095 0.83,0 1.5,-0.905 1.5,-1.905 l 1.997,0 c -0.021,2 -1.576,3.821 -3.497,3.821 -1.933,0 -3.5,-1.819 -3.5,-4.005 0,-1.853 1.045,-3.371 2.57,-3.925 C -0.4,-1.302 0.064,-0.579 0,0"/></g><g transform="translate(14.8359,27.2695)" id="g52"><path id="path54" style="stroke-width:1px" d="m 0,0 c -0.702,0 -1.271,0.666 -1.271,1.489 0,0.823 0.569,1.49 1.271,1.49 0.701,0 1.27,-0.667 1.27,-1.49 C 1.27,0.666 0.701,0 0,0"/></g><g transform="translate(15.543,28.917)" id="g56"><path id="path58" style="stroke-width:1px" d="m 0,0 c -0.055,0.479 -0.374,0.792 -0.729,1.017 -0.485,0.306 -1,1.007 -1,1.876 0,1.105 0.671,2.095 1.5,2.095 0.83,0 1.5,-0.905 1.5,-1.905 l 1.997,0 c -0.021,2 -1.576,3.821 -3.497,3.821 -1.933,0 -3.5,-1.819 -3.5,-4.005 0,-1.853 1.045,-3.371 2.57,-3.925 C -0.4,-1.302 0.064,-0.579 0,0"/></g><g transform="translate(20.8359,27.2695)" id="g60"><path id="path62" style="stroke-width:1px" d="m 0,0 c -0.702,0 -1.271,0.666 -1.271,1.489 0,0.823 0.569,1.49 1.271,1.49 0.701,0 1.27,-0.667 1.27,-1.49 C 1.27,0.666 0.701,0 0,0"/></g><g transform="translate(21.543,28.917)" id="g64"><path id="path66" style="stroke-width:1px" d="m 0,0 c -0.055,0.479 -0.374,0.792 -0.729,1.017 -0.485,0.306 -1,1.007 -1,1.876 0,1.105 0.671,2.095 1.5,2.095 0.83,0 1.5,-0.905 1.5,-1.905 l 1.997,0 c -0.021,2 -1.576,3.821 -3.497,3.821 -1.933,0 -3.5,-1.819 -3.5,-4.005 0,-1.853 1.045,-3.371 2.57,-3.925 C -0.4,-1.302 0.064,-0.579 0,0"/></g><g transform="translate(26.8359,27.2695)" id="g68"><path id="path70" style="stroke-width:1px" d="m 0,0 c -0.702,0 -1.271,0.666 -1.271,1.489 0,0.823 0.569,1.49 1.271,1.49 0.701,0 1.27,-0.667 1.27,-1.49 C 1.27,0.666 0.701,0 0,0"/></g><g transform="translate(27.543,28.917)" id="g72"><path id="path74" style="stroke-width:1px" d="m 0,0 c -0.055,0.479 -0.374,0.792 -0.729,1.017 -0.485,0.306 -1,1.007 -1,1.876 0,1.105 0.671,2.095 1.5,2.095 0.83,0 1.5,-0.905 1.5,-1.905 l 1.997,0 c -0.021,2 -1.576,3.821 -3.497,3.821 -1.933,0 -3.5,-1.819 -3.5,-4.005 0,-1.853 1.045,-3.371 2.57,-3.925 C -0.4,-1.302 0.064,-0.579 0,0"/></g><path id="path76" style="stroke-width:1px" d="m 15,17 -4,0 0,4 4,0 0,-4 z"/><path id="path78" style="stroke-width:1px" d="m 20,17 -4,0 0,4 4,0 0,-4 z"/><path id="path80" style="stroke-width:1px" d="m 25,17 -4,0 0,4 4,0 0,-4 z"/><path id="path82" style="stroke-width:1px" d="m 30,17 -4,0 0,4 4,0 0,-4 z"/><path id="path84" style="stroke-width:1px" d="m 10,12 -4,0 0,4 4,0 0,-4 z"/><path id="path86" style="stroke-width:1px" d="m 15,12 -4,0 0,4 4,0 0,-4 z"/><path id="path88" style="stroke-width:1px" d="m 20,12 -4,0 0,4 4,0 0,-4 z"/><path id="path90" style="stroke-width:1px" d="m 25,12 -4,0 0,4 4,0 0,-4 z"/><path id="path92" style="stroke-width:1px" d="m 30,12 -4,0 0,4 4,0 0,-4 z"/><path id="path94" style="stroke-width:1px" d="m 10,7 -4,0 0,4 4,0 0,-4 z"/><path id="path96" style="stroke-width:1px" d="m 15,7 -4,0 0,4 4,0 0,-4 z"/><path id="path98" style="stroke-width:1px" d="m 20,7 -4,0 0,4 4,0 0,-4 z"/><path id="path100" style="stroke-width:1px" d="m 25,7 -4,0 0,4 4,0 0,-4 z"/><path id="path102" style="stroke-width:1px" d="m 30,7 -4,0 0,4 4,0 0,-4 z"/><path id="path104" style="stroke-width:1px" d="M 10,2 6,2 6,6 10,6 10,2 Z"/><path id="path106" style="stroke-width:1px" d="m 15,2 -4,0 0,4 4,0 0,-4 z"/><path id="path108" style="stroke-width:1px" d="m 20,2 -4,0 0,4 4,0 0,-4 z"/></g></g></g></svg></a>
+							</div>
+							<div style="  grid-column: 2">
+								<a href = "https://outlook.office365.com/calendar/published/bfb42cda911e483c804e1aa24b7005d5@umontreal.ca/9effdc18dae74e6d9048daaeaf1440db12973665910407921392/calendar.html" target="_blank">Calendar</a>
+							</div>
+							<!-- <iframe src= "https://outlook.office365.com/calendar/published/bfb42cda911e483c804e1aa24b7005d5@umontreal.ca/9effdc18dae74e6d9048daaeaf1440db12973665910407921392/calendar.html" style="border: 0;-webkit-transform:scale(0.7);-moz-transform-scale(0.7);" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
+						</div> 
+					</div>
+					<br>
+					
 				</div>
-				<div style="padding-top:6px;padding-left: 1px;">
-					<a id="email-link" href="mailto:aigerman@adobe.com">
-						<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"  stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round">
-							<title>Email</title>
-  							<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-  							<polyline points="22,6 12,13 2,6"/>
-						</svg></a>
-					<a href="https://scholar.google.com/citations?user=eO2xkdMAAAAJ&hl=en" target="_blank">
-						<svg class="icon" role="img" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
-							<title>Google Scholar</title>
-							<path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>
-						</svg></a>
-					<a href="https://twitter.com/AigermanNoam" target="_blank">
-						<svg class="icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-							<title>Twitter</title>
-							<path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
-						</svg>
-					</a>
-				</div> 
+				<br>
+				<div id="about">
+					<span style="text-decoration: underline;"></span> I am a computer scientist working on problems related to machine learning and 3D geometry. My research lies at the intersection of <span style="font-style: italic;">geometry processing</span>, <span style="font-style: italic;">computer graphics</span>, <span style="font-style: italic;">deep learning</span>, and <span style="font-style: italic;">optimization</span>. Currently, I mostly focus on using geometry processing to devise thoeretically-grounded machine learning approaches for 3D problems; and, vice-versa, approaching geometry processing tasks from a machine learning perspective. 
+				</div>
 			</div>
-			<br>
-			<br>
-			<div style="font-size:98%;max-width: 90%;color:rgb(40,100,160)">
-				I am a computer scientist working on problems related to 3D and 2D geometry. My research lies at the intersection of <span style="font-style: italic;">geometry processing</span>, <span style="font-style: italic;">computer graphics</span>, <span style="font-style: italic;">deep learning</span>, and <span style="font-style: italic;">optimization</span>.<br>Currently, I mostly focus on using geometry processing to devise thoeretically-grounded machine learning approaches for 3D problems; and, vice-versa, approaching geometry processing tasks from a machine learning perspective. 
+			<div id="mebox">
+				<div id="mepic">
+					<img id="me2d" src="pics/me.jpg" alt="Yes, this is I!"  class="round-corner" />
+					
+				</div>	
 			</div>
 		</div>
-		<div style="margin-right:1%;grid-column: 2;">
-			<div id="mepic">
-				<img id="me2d" src="pics/weizmann.jpg" style="width:110px;margin-left:10px; " alt="Yes, this is I!"  class="round-corner" />
-				<!-- 
-				<img id="me3d" style="width:130px;opacity:0;position:absolute" alt="Yes, this is I (in 3D!)"   />
-				<img  src="pics/me3d.png" style="width:130px;visibility:hidden"  /> -->
-			</div>	
-		</div>
-	</div>
-	
-	<br/>
-	<div id="pub" style="padding-top:20px">
-		<div class="fancy-border">
-		<span class="heading">Teaching</span>
-		</div>
-		<br/>
 		
-	</div>
-	<div>
-		Winter 2024: <a href="course_NGP.html">IFT6095 - Neural Geometry Processing</a>
-	</div>
-	 <div style="clear:both">
-
-
-	</div>
-
-		<br><br>
+		<br/>
 		<div id="pub" style="padding-top:20px">
 			<div class="fancy-border">
-			<span class="heading">Publications</span>
-			&nbsp
-			<span class="subheading">(hover over a project's image for a one-sentence summary)</span>
+			<span class="heading">Teaching</span>
 			</div>
 			<br/>
-			<div class="paper-grid" style="padding-top:5px">				
-				
-				<img alt="The cow is deformed into two desired shapes described by a text prompt, in this case a turtle and a stag." class="teaser" src="html/textdeformer.jpg"  title="Deforming 3D meshes based on text prompts, by rendering the mesh from various view angles and using a trained visual encoder (CLIP), with a tailor-made deformation module which can consolidate the different viewpoints in a meaningful way."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						TextDeformer: Geometry Manipulation using Text Guidance
-					</div>
-					<div class="paper-data">
-						<div class="authors">
-							
-							
-							<span style="white-space: nowrap;">
-								William Gao,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Thibault Groueix,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Vladimir G. Kim,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Rana Hanocka
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH 2023
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://threedle.github.io/TextDeformer/" target="_blank">Project page</a> 	
-							
+			
+		</div>
+		<div>
+			Winter 2024: <a href="course_NGP.html" target ="_blank">IFT6095 - Neural Geometry Processing</a>
+		</div>
+		<div style="clear:both">
+
+
+		</div>
+
+			<br><br>
+			<div id="pub" style="padding-top:20px">
+				<div class="fancy-border">
+				<span class="heading">Publications</span>
+				&nbsp
+				<span id="hoverhint" class="subheading" style="white-space: nowrap;"> (hover over a project's image for a one-sentence summary)</span>
+				</div>
+				<br/>
+				<div class="paper-grid" style="padding-top:5px">				
+					
+					<img alt="Top: point clouds are generated through a pretrained generative model, and are used to deform and swap meshes (bottom)." class="teaser" src="html/deformation_explore.PNG"  title="Using an existing generative model for point clouds to generat and control deformations of meshes."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Explorable Mesh Deformation Subspaces from Unstructured 3D Generative Models
 						</div>
-					    	
-					</div>
-				</div>
-		  		
-				<img alt="Face meshes from various datasets, with different triangulations, can be automatically deformed by our network into two facial expressions." class="teaser" src="html/NFR.jpg"  title="Using a neural network to deform arbitrary facial meshes, w.r.t. human-interpretable parameters which can enable artists to directly control and manipulate the expression in a plausible manner."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Neural Face Rigging for Animating and Retargeting Facial Meshes in the Wild
-					</div>
-					<div class="paper-data">
-						<div class="authors">
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Arman Maesumi,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Paul Guerrero,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Vladimir G. Kim,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Matthew Fisher,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Siddhartha Chaudhuri,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Daniel Ritchie
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH Asia 2023
+							</div>	
 							
-							
-							<span style="white-space: nowrap;">
-								Dafei Qin,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Jun Saito,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Thibault Groueix,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Taku Komura
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH 2023
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://arxiv.org/abs/2305.08296" target="_blank">Paper</a> 	
-							
+							<div class="paper-links">
+								
+								<a href="https://armanmaesumi.github.io/explorable_subspaces/" target="_blank">Project page</a> 	
+								
+							</div>
+								
 						</div>
-					    	
 					</div>
-				</div>
-		  		
-				<img alt="A coarse mesh is progressively refined using a neural network, given additional details transmitted." class="teaser" src="html/neural_progressive.jpg"  title="Compressing a mesh, by encoding it as coarse mesh and neural features, enabling to progressively refine the coarse mesh as additional features are transmitted."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Neural Progressive Meshes
-					</div>
-					<div class="paper-data">
-						<div class="authors">
-							
-							
-							<span style="white-space: nowrap;">
-								Yun-Chun Chen,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Vladimir G. Kim,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Alec Jacobson
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH 2023
-						</div>	
-						
-					    [Coming soon...]
-							
-					</div>
-				</div>
-		  		
-				<img alt="A point is selected on the mesh by a user, and a region containing this point is selected by our network, such that the region can UV-mapped with low-distortion (UV map visualized with a square texture on the selected region)." class="teaser" src="html/DAWand.jpg"  title="Using a neural network to segment a region on a mesh containing a given selected point in a manner that is aware of the distortion generated by a UV-mapping algorithm w.r.t. the selected region."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						DA Wand: Distortion-Aware Selection using Neural Mesh Parameterization
-					</div>
-					<div class="paper-data">
-						<div class="authors">
-							
-							
-							<span style="white-space: nowrap;">
-								Richard Liu,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Vladimir G. Kim,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Rana Hanocka
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							CVPR 2023
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://arxiv.org/abs/2212.06344" target="_blank">Paper</a>  | 	
-							
-							<a href="https://threedle.github.io/DA-Wand/" target="_blank">Project page</a> 	
-							
+					
+					<img alt="The cow is deformed into two desired shapes described by a text prompt, in this case a turtle and a stag." class="teaser" src="html/textdeformer.jpg"  title="Deforming 3D meshes based on text prompts, by rendering the mesh from various view angles and using a trained visual encoder (CLIP), with a tailor-made deformation module which can consolidate the different viewpoints in a meaningful way."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							TextDeformer: Geometry Manipulation using Text Guidance
 						</div>
-					    	
-					</div>
-				</div>
-		  		
-				<img alt="Top: our previous method can produce a 1-to-1 UV map of the bunny into the cross, but has distortion and scales some parts of mesh (in red). Bottom: this paper can also compute a 1-to-1 UV map, but also ensure it has low distortion and less scaling." class="teaser" src="html/projects/isoinj/isoinj.jpg"  title="An energy that penalizes both lack of injectivity and high isometric distortion at the same time, enabling computation of 1-to-1 and low-distortion maps with arbitrary positional constraints."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Isometric Energies for Recovering Injectivity in Constrained Mapping
-					</div>
-					<div class="paper-data">
-						<div class="authors">
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									William Gao,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Thibault Groueix,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Vladimir G. Kim,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Rana Hanocka
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH 2023
+							</div>	
 							
-							
-							<span style="white-space: nowrap;">
-								Xingyi Du,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Danny M. Kaufman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Qingnan Zhou,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Shahar Z. Kovalsky,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Yajie Yan,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Tao Ju
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH Asia 2022
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://duxingyi-charles.github.io/publication/isometric-energies-for-recovering-injectivity-in-constrained-mapping/" target="_blank">Project page</a> 	
-							
+							<div class="paper-links">
+								
+								<a href="https://threedle.github.io/TextDeformer/" target="_blank">Project page</a> 	
+								
+							</div>
+								
 						</div>
-					    	
 					</div>
-				</div>
-		  		
-				<img alt="A chair with parts of it missing (left) is completed by our method to a full chair (middle) by copying and transforming existing parts to missing areas, while competing generative approaches produce fuzzy approximiations (right)." class="teaser" src="html/projects/patch-rd/patch-rd.jpg"  title="Training a network to complete missing parts of a shape by copying and transforming existing parts of the input."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						PatchRD: Detail-Preserving Shape Completion by Learning Patch Retrieval and Deformation
-					</div>
-					<div class="paper-data">
-						<div class="authors">
-							
-							
-							<span style="white-space: nowrap;">
-								Bo Sun,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Vladimir G. Kim,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Qixing Huang,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Siddhartha Chaudhuri
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ECCV 2022
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://arxiv.org/abs/2207.11790" target="_blank">Paper</a>  | 	
-							
-							<a href="https://github.com/GitBoSun/PatchRD" target="_blank">Code</a> 	
-							
+					
+					<img alt="Face meshes from various datasets, with different triangulations, can be automatically deformed by our network into two facial expressions." class="teaser" src="html/NFR.jpg"  title="Using a neural network to deform arbitrary facial meshes, w.r.t. human-interpretable parameters which can enable artists to directly control and manipulate the expression in a plausible manner."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Neural Face Rigging for Animating and Retargeting Facial Meshes in the Wild
 						</div>
-					    	
-					</div>
-				</div>
-		  		
-				<img alt="Our method produces an atlas with a complex topology for a set of shapes." class="teaser" src="html/projects/joint_atlases/joint_atlases.jpg"  title="Computing a UV layout for given shapes by representing the map as a mixture of gaussians, enabling defining arbitrary topologies."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Learning Joint Surface Atlases
-					</div>
-					<div class="paper-data">
-						<div class="authors">
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Dafei Qin,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Jun Saito,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Thibault Groueix,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Taku Komura
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH 2023
+							</div>	
 							
-							
-							<span style="white-space: nowrap;">
-								Theo Deprelle,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Thibault Groueix,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Vladimir G. Kim,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Mathieu Aubry
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ECCV Workshop on Learning to Generate 3D Shapes and Scenes, 2022
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://arxiv.org/abs/2206.06273" target="_blank">Paper</a>  | 	
-							
-							<a href="https://github.com/TheoDEPRELLE/Joint-Atlas-Surfaces" target="_blank">Code</a> 	
-							
+							<div class="paper-links">
+								
+								<a href="https://arxiv.org/abs/2305.08296" target="_blank">Paper</a> 	
+								
+							</div>
+								
 						</div>
-					    	
 					</div>
-				</div>
-		  		
-				<img alt="left: a UV map predicted by the network, almost identical to the ground-truth. Right: the network correctly reposes the bunny to the poses demonstrated by the human." class="teaser" src="html/projects/NJF/NJF.jpg"  title="A framework for learning to deform meshes in a highly detail-preserving manner, without being tied to a specific mesh."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Neural Jacobian Fields: Learning Intrinsic Mappings of Arbitrary Meshes
-					</div>
-					<div class="paper-data">
-						<div class="authors">
-							
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Kunal Gupta,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Vladimir G. Kim,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Siddhartha Chaudhuri,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Jun Saito,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Thibault Groueix
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH 2022 (journal track)
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://arxiv.org/abs/2205.02904" target="_blank">Paper</a>  | 	
-							
-							<a href="https://github.com/ThibaultGROUEIX/NeuralJacobianFields" target="_blank">Code</a> 	
-							
+					
+					<img alt="A coarse mesh is progressively refined using a neural network, given additional details transmitted." class="teaser" src="html/neural_progressive.jpg"  title="Compressing a mesh, by encoding it as coarse mesh and neural features, enabling to progressively refine the coarse mesh as additional features are transmitted."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Neural Progressive Meshes
 						</div>
-					    	
-					</div>
-				</div>
-		  		
-				<img alt="The framework learns to represent a surface map from a coarse atlasnet-like MLP composed with a CNN that adds details" class="teaser" src="html/projects/cnnmaps/cnnmaps.jpg"  title="Extension of Neural Surface Maps, which decomposes coarse/fine features to an AtlasNet-like representation along with a CNN which adds details."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Neural Convolutional Surfaces
-					</div>
-					<div class="paper-data">
-						<div class="authors">
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Yun-Chun Chen,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Vladimir G. Kim,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Alec Jacobson
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH 2023
+							</div>	
 							
-							
-							<span style="white-space: nowrap;">
-								Luca Morreale,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Paul Guerrero,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Vladimir G. Kim,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Niloy Mitra
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							CVPR 2022
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="http://geometry.cs.ucl.ac.uk/projects/2022/cnnmaps/" target="_blank">Project Page </a> 	
-							
+							<div class="paper-links">
+								
+								<a href="https://arxiv.org/abs/2308.05741" target="_blank">Paper</a> 	
+								
+							</div>
+								
 						</div>
-					    	
 					</div>
-				</div>
-		  		
-				<img alt="Various poses (orange) generated by our method from a few landmark poses (gray)." class="teaser" src="html/projects/glass/glass.jpg"  title="Learning to generate meaningful shape deformations from a (very) sparse set of example deformations."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						GLASS: Geometric Latent Augmentation for Shape Spaces
-					</div>
-					<div class="paper-data">
-						<div class="authors">
-							
-							
-							<span style="white-space: nowrap;">
-								Sanjeev Muralikrishnan,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Siddhartha Chaudhuri,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Vladimir G. Kim,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Matthew Fisher,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Niloy Mitra
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							CVPR 2022
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://arxiv.org/abs/2108.03225" target="_blank">Paper </a> 	
-							
+					
+					<img alt="A point is selected on the mesh by a user, and a region containing this point is selected by our network, such that the region can UV-mapped with low-distortion (UV map visualized with a square texture on the selected region)." class="teaser" src="html/DAWand.jpg"  title="Using a neural network to segment a region on a mesh containing a given selected point in a manner that is aware of the distortion generated by a UV-mapping algorithm w.r.t. the selected region."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							DA Wand: Distortion-Aware Selection using Neural Mesh Parameterization
 						</div>
-					    	
-					</div>
-				</div>
-		  		
-				<img alt="A mesh (right) generated by optimizing the alignment of its edges to the input vector field (left)." class="teaser" src="html/diff_tri.jpg"  title="A continuous representation of the space of triangulations using 2D power diagrams, enabling using gradient-descent methods (namely within the context of deep learning) to optimize and learn triangulations."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Differentiable Surface Triangulation
-					</div>
-					<div class="paper-data">
-						<div class="authors">
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Richard Liu,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Vladimir G. Kim,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Rana Hanocka
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								CVPR 2023
+							</div>	
 							
-							
-							<span style="white-space: nowrap;">
-								Marie-Julie Rakotosaona,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Niloy Mitra,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Maks Ovsjanikov,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Paul Guerrero
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH ASIA 2021
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://arxiv.org/abs/2109.10695" target="_blank">Paper </a>  | 	
-							
-							<a href="https://github.com/mrakotosaon/diff-surface-triangulation" target="_blank">Code</a> 	
-							
+							<div class="paper-links">
+								
+								<a href="https://arxiv.org/abs/2212.06344" target="_blank">Paper</a>  | 	
+								
+								<a href="https://threedle.github.io/DA-Wand/" target="_blank">Project page</a> 	
+								
+							</div>
+								
 						</div>
-					    	
 					</div>
-				</div>
-		  		
-				<img alt="A mesh (left) is paramterized to an initial parameterization (middle) with local inversions of triangles and global overlaps of the boundary, which are then alleviated through our optimization (right). " class="teaser" src="html/opt_global_inj.jpg"  title="A smooth energy that when optimized yields globally-injective parameterizations (without triangles folding over and without parts of the boundaries overlapping one another)."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Optimizing Global Injectivity for Constrained Parameterization
-					</div>
-					<div class="paper-data">
-						<div class="authors">
-							
-							
-							<span style="white-space: nowrap;">
-								Xingyi Du,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Danny M. Kaufman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Qingnan Zhou,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Shahar Z. Kovalsky,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Yajie Yan,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Tao Ju
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH ASIA 2021
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://duxingyi-charles.github.io/publication/optimizing-global-injectivity-for-constrained-parameterization/" target="_blank">Project Page </a> 	
-							
+					
+					<img alt="Top: our previous method can produce a 1-to-1 UV map of the bunny into the cross, but has distortion and scales some parts of mesh (in red). Bottom: this paper can also compute a 1-to-1 UV map, but also ensure it has low distortion and less scaling." class="teaser" src="html/projects/isoinj/isoinj.jpg"  title="An energy that penalizes both lack of injectivity and high isometric distortion at the same time, enabling computation of 1-to-1 and low-distortion maps with arbitrary positional constraints."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Isometric Energies for Recovering Injectivity in Constrained Mapping
 						</div>
-					    	
-					</div>
-				</div>
-		  		
-				<img alt="A sequence of reconstructed surfaces using our algorithm, exhibiting good consistent correspondences between each frame in the sequence them (visualized via texture that exhibits the correspondence)." class="teaser" src="html/temporal.jpg"  title="Given a sequence of points clouds representing a motion of a shape, this algorithm reconstructs a sequence of surfaces that lie in good correspondence with one another (e.g., head in frame 1 corresponds to head in frame 2)."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Temporally-Coherent Surface Reconstruction via Metric-Consistent Atlases
-					</div>
-					<div class="paper-data">
-						<div class="authors">
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Xingyi Du,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Danny M. Kaufman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Qingnan Zhou,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Shahar Z. Kovalsky,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Yajie Yan,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Tao Ju
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH Asia 2022
+							</div>	
 							
-							
-							<span style="white-space: nowrap;">
-								Jan Bednarik,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Vladimir G. Kim,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Siddhartha Chaudhuri,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Shaifali Parashar,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Mathieu Salzmann,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Pascal Fua,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ICCV 2021
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://arxiv.org/abs/2104.06950" target="_blank">Paper </a>  | 	
-							
-							<a href="https://youtu.be/jfNQPTsbM3g" target="_blank">Video</a> 	
-							
+							<div class="paper-links">
+								
+								<a href="https://duxingyi-charles.github.io/publication/isometric-energies-for-recovering-injectivity-in-constrained-mapping/" target="_blank">Project page</a> 	
+								
+							</div>
+								
 						</div>
-					    	
 					</div>
-				</div>
-		  		
-				<img alt="A 2D brush is swept along a spiraling trajectory (left), tracing the golden horn (right)." class="teaser" src="html/sweep.jpg"  title="An algorithm for robustly computing the total volume occupied by a shape as it&#39;s moving along a trajectory."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Swept Volumes via Spacetime Numerical Continuation
-					</div>
-					<div class="paper-data">
-						<div class="authors">
-							
-							
-							<span style="white-space: nowrap;">
-								Silvia Sellán,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Alec Jacobson
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH 2021
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://www.dgp.toronto.edu/projects/swept-volumes/" target="_blank">Project Page </a> 	
-							
+					
+					<img alt="A chair with parts of it missing (left) is completed by our method to a full chair (middle) by copying and transforming existing parts to missing areas, while competing generative approaches produce fuzzy approximiations (right)." class="teaser" src="html/projects/patch-rd/patch-rd.jpg"  title="Training a network to complete missing parts of a shape by copying and transforming existing parts of the input."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							PatchRD: Detail-Preserving Shape Completion by Learning Patch Retrieval and Deformation
 						</div>
-					    	
-					</div>
-				</div>
-		  		
-				<img alt="Coarse voxel grids (red) are refined into different types of plants (yellow), based on the input desired style (green)." class="teaser" src="html/decorgan2.jpg"  title="Training a GAN to upsample coarse voxel grids, conditioned on a desired style, to create realistic high-resolution models."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						DECOR-GAN: 3D Shape Detailization by Conditional Refinement
-					</div>
-					<div class="paper-data">
-						<div class="authors">
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Bo Sun,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Vladimir G. Kim,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Qixing Huang,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Siddhartha Chaudhuri
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ECCV 2022
+							</div>	
 							
-							
-							<span style="white-space: nowrap;">
-								Zhiqin Chen,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Vladimir G. Kim,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Matthew Fisher,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Hao Zhang,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Siddhartha Chaudhuri
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							CVPR 2021 (oral)
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://arxiv.org/abs/2012.09159" target="_blank">Paper</a>  | 	
-							
-							<a href="https://github.com/czq142857/DECOR-GAN" target="_blank">Code</a> 	
-							
+							<div class="paper-links">
+								
+								<a href="https://arxiv.org/abs/2207.11790" target="_blank">Paper</a>  | 	
+								
+								<a href="https://github.com/GitBoSun/PatchRD" target="_blank">Code</a> 	
+								
+							</div>
+								
 						</div>
-					    	
 					</div>
-				</div>
-		  		
-				<img alt="Two surfaces are repsented as 2D-to-3D maps via two overfitted neural networks. Since they are both differentiable,this in turn enables optimizing a surface-to-surface map (via h) in a completely differentiable manner." class="teaser" src="html/neural_surface_maps.jpg"  title="Representing surface maps as neural networks, and optimizing differentiable composition of such maps to compute mappings between surfaces which minimize distortion."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Neural Surface Maps
-					</div>
-					<div class="paper-data">
-						<div class="authors">
-							
-							
-							<span style="white-space: nowrap;">
-								Luca Morreale,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Vladimir G. Kim,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Niloy J. Mitra
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							CVPR 2021
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="http://geometry.cs.ucl.ac.uk/projects/2021/neuralmaps/" target="_blank">Project Page </a> 	
-							
+					
+					<img alt="Our method produces an atlas with a complex topology for a set of shapes." class="teaser" src="html/projects/joint_atlases/joint_atlases.jpg"  title="Computing a UV layout for given shapes by representing the map as a mixture of gaussians, enabling defining arbitrary topologies."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Learning Joint Surface Atlases
 						</div>
-					    	
-					</div>
-				</div>
-		  		
-				<img alt="A point cloud is meshed using our neural network." class="teaser" src="html/DSE.jpg"  title="Using a network to drive local delaunay triangulations of point clouds, which generate a manifold triangulation of the point cloud in a data-driven manner."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						 Learning Delaunay Surface Elements for Mesh Reconstruction 
-					</div>
-					<div class="paper-data">
-						<div class="authors">
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Theo Deprelle,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Thibault Groueix,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Vladimir G. Kim,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Mathieu Aubry
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ECCV Workshop on Learning to Generate 3D Shapes and Scenes, 2022
+							</div>	
 							
-							
-							<span style="white-space: nowrap;">
-								Marie-Julie Rakotosaona,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Paul Guerrero,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Niloy J. Mitra,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Maks Ovsjanikov
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							CVPR 2021 (oral)
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="http://www.lix.polytechnique.fr/Labo/Marie-Julie.RAKOTOSAONA/dse_meshing.html" target="_blank">Project Page</a> 	
-							
+							<div class="paper-links">
+								
+								<a href="https://arxiv.org/abs/2206.06273" target="_blank">Paper</a>  | 	
+								
+								<a href="https://github.com/TheoDEPRELLE/Joint-Atlas-Surfaces" target="_blank">Code</a> 	
+								
+							</div>
+								
 						</div>
-					    	
 					</div>
-				</div>
-		  		
-				<img alt="The framework of our method." class="teaser" src="html/retrieve_and_deform.jpg"  title="A neural network is trained to retrieve and deform appropriate models from a database, based on its knowledge of their deformation space and how well can they fit to the target."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Joint Learning of 3D Shape Retrieval and Deformation
-					</div>
-					<div class="paper-data">
-						<div class="authors">
-							
-							
-							<span style="white-space: nowrap;">
-								Mikaela Angelina Uy,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Vladimir G. Kim,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Minhyuk Sung,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Siddhartha Chaudhuri,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Leonidas Guibas
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							CVPR 2021
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://joint-retrieval-deformation.github.io/" target="_blank">Project Page</a> 	
-							
+					
+					<img alt="left: a UV map predicted by the network, almost identical to the ground-truth. Right: the network correctly reposes the bunny to the poses demonstrated by the human." class="teaser" src="html/projects/NJF/NJF.jpg"  title="A framework for learning to deform meshes in a highly detail-preserving manner, without being tied to a specific mesh."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Neural Jacobian Fields: Learning Intrinsic Mappings of Arbitrary Meshes
 						</div>
-					    	
-					</div>
-				</div>
-		  		
-				<img alt="Our method approximates the input heightfield surface (left) by a piecewise-developable heightfield surface (right)." class="teaser" src="html/projects/developability/developability-thumb.jpg"  title="An algorithm that computes heightfields that are  piecewise-developalbe (can be created by bending sheets of paper) from input heightfields. The core theoretical idea uses intuition from compressed sensing, and an observation regarding the low rank of the hessian of developable heightfields. "/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Developability of Heightfields via Rank Minimization
-					</div>
-					<div class="paper-data">
-						<div class="authors">
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Kunal Gupta,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Vladimir G. Kim,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Siddhartha Chaudhuri,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Jun Saito,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Thibault Groueix
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH 2022 (journal track)
+							</div>	
 							
-							
-							<span style="white-space: nowrap;">
-								Silvia Sellán,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Alec Jacobson
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH 2020
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://www.dgp.toronto.edu/projects/compressed-developables/" target="_blank">Project Page </a> 	
-							
+							<div class="paper-links">
+								
+								<a href="https://arxiv.org/abs/2205.02904" target="_blank">Paper</a>  | 	
+								
+								<a href="https://github.com/ThibaultGROUEIX/NeuralJacobianFields" target="_blank">Code</a> 	
+								
+							</div>
+								
 						</div>
-					    	
 					</div>
-				</div>
-		  		
-				<img alt="A coarse mesh is subidivided via a neural network, which restores natural geometric features without over-smoothing." class="teaser" src="html/projects/subdiv/neuralSubdiv.jpg"  title="Training a neural network to apply data-driven recursive subdivision operations."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Neural Subdivision
-					</div>
-					<div class="paper-data">
-						<div class="authors">
-							
-							
-							<span style="white-space: nowrap;">
-								Hsueh-Ti Derek Liu,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Vladimir G. Kim,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Siddhartha Chaudhuri,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Alec Jacobson
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH 2020
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://arxiv.org/abs/2005.01819" target="_blank">Paper</a>  | 	
-							
-							<a href="https://www.dgp.toronto.edu/projects/neural-subdivision/" target="_blank">Code</a> 	
-							
+					
+					<img alt="The framework learns to represent a surface map from a coarse atlasnet-like MLP composed with a CNN that adds details" class="teaser" src="html/projects/cnnmaps/cnnmaps.jpg"  title="Extension of Neural Surface Maps, which decomposes coarse/fine features to an AtlasNet-like representation along with a CNN which adds details."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Neural Convolutional Surfaces
 						</div>
-					    	
-					</div>
-				</div>
-		  		
-				<img alt="Mapping a mesh into a non-convex domain without any inversions, yielding a globally injective map" class="teaser" src="html/projects/TLC/TLC.jpg"  title="An algorithm minimizing an energy designed specifically to recover injectivity of a map."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Lifting Simplices to Find Injectivity
-					</div>
-					<div class="paper-data">
-						<div class="authors">
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Luca Morreale,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Paul Guerrero,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Vladimir G. Kim,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Niloy Mitra
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								CVPR 2022
+							</div>	
 							
-							
-							<span style="white-space: nowrap;">
-								Xingyi Du,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Qingnan Zhou,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Shahar Kovalsky,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Yajie Yan,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Danny M. Kaufman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Tao Ju
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH 2020
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://duxingyi-charles.github.io/publication/lifting-simplices-to-find-injectivity/Lifting-Simplices-to-Find-Injectivity.pdf" target="_blank"> Paper</a>  | 	
-							
-							<a href="https://duxingyi-charles.github.io/publication/lifting-simplices-to-find-injectivity/" target="_blank"> Project Page</a>  | 	
-							
-							<a href="https://github.com/duxingyi-charles/lifting_simplices_to_find_injectivity" target="_blank"> Code</a>  | 	
-							
-							<a href="https://zenodo.org/record/3827969#.Xr7HEBNKjUI" target="_blank"> Data Set </a>  | 	
-							
-							<a href="https://duxingyi-charles.github.io/publication/lifting-simplices-to-find-injectivity/lucy_G.mp4" target="_blank"> Video </a> 	
-							
+							<div class="paper-links">
+								
+								<a href="http://geometry.cs.ucl.ac.uk/projects/2022/cnnmaps/" target="_blank">Project Page </a> 	
+								
+							</div>
+								
 						</div>
-					    	
 					</div>
-				</div>
-		  		
-				<img alt="Deforming humanoids to match example poses via a neural network, while preserving details." class="teaser" src="html/projects/ncages/deformation_transfer.jpg"  title="Using cage deformations to enable networks to deform shapes without ruining/smoothing out details."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Neural Cages for Detail-Preserving 3D Deformations
-					</div>
-					<div class="paper-data">
-						<div class="authors">
-							
-							
-							<span style="white-space: nowrap;">
-								Wang Yifan,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Vladimir G. Kim,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Siddhartha Chaudhuri,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Olga Sorkine-Hornung
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							CVPR 2020 (oral)
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="html/projects/ncages/paper.pdf" target="_blank">Paper</a>  | 	
-							
-							<a href="https://yifita.github.io/project/neural-shape/" target="_blank">Project Page</a> 	
-							
+					
+					<img alt="Various poses (orange) generated by our method from a few landmark poses (gray)." class="teaser" src="html/projects/glass/glass.jpg"  title="Learning to generate meaningful shape deformations from a (very) sparse set of example deformations."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							GLASS: Geometric Latent Augmentation for Shape Spaces
 						</div>
-					    	
-					</div>
-				</div>
-		  		
-				<img alt="Comparison of reconstruction quality of the hybrid reconstruction versus the two components of the hybrid." class="teaser" src="html/hybrid.jpg"  title="Training a network to jointly reconstruct implicit and explicit surface representations that agree with one another yields superior results."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Coupling Explicit and Implicit Surface Representations for Generative 3D Modeling
-					</div>
-					<div class="paper-data">
-						<div class="authors">
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Sanjeev Muralikrishnan,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Siddhartha Chaudhuri,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Vladimir G. Kim,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Matthew Fisher,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Niloy Mitra
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								CVPR 2022
+							</div>	
 							
-							
-							<span style="white-space: nowrap;">
-								Omid Poursaeed,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Matthew Fisher,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Vladimir G. Kim
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ECCV 2020
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="https://omidpoursaeed.github.io/publication/hybrid/" target="_blank">Project Page</a> 	
-							
+							<div class="paper-links">
+								
+								<a href="https://arxiv.org/abs/2108.03225" target="_blank">Paper </a> 	
+								
+							</div>
+								
 						</div>
-					    	
 					</div>
-				</div>
-		  		
-				<img alt="An embedding of a mesh into a spherical orbifold, which can tile the sphere." class="teaser" src="html/projects/spherical/spherical.jpg"  title="An extension of the orbifold Tutte embeddings to spherical domains."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Spherical Orbifold Tutte Embeddings
-					</div>
-					<div class="paper-data">
-						<div class="authors">
-							
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Shahar Kovalsky,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Yaron Lipman
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH 2017
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="html/projects/spherical/highres.pdf" target="_blank">Paper</a>  | 	
-							
-							<a href="html/projects/spherical/lowres.pdf" target="_blank">Low Res</a>  | 	
-							
-							<a href="https://github.com/noamaig/spherical_orbifolds" target="_blank">Code</a> 	
-							
+					
+					<img alt="A mesh (right) generated by optimizing the alignment of its edges to the input vector field (left)." class="teaser" src="html/diff_tri.jpg"  title="A continuous representation of the space of triangulations using 2D power diagrams, enabling using gradient-descent methods (namely within the context of deep learning) to optimize and learn triangulations."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Differentiable Surface Triangulation
 						</div>
-					    	
-					</div>
-				</div>
-		  		
-				<img alt="A convolution of a filter on a spherical surface is well-defined on the surface&#39;s toric 4-cover." class="teaser" src="html/projects/orbifold_learning/lern2.jpg"  title="Applyig CNN&#39;s to spherical surfaces, by using the orbifold Tutte embeddings to bijectively and seamlessly embed 4 copies of the surface into a square image with cyclic boundary conditions, which enables regular 2D convolution."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Convolutional Neural Networks on Surfaces via Seamless Toric Covers
-					</div>
-					<div class="paper-data">
-						<div class="authors">
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Marie-Julie Rakotosaona,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Niloy Mitra,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Maks Ovsjanikov,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Paul Guerrero
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH ASIA 2021
+							</div>	
 							
-							
-							<span style="white-space: nowrap;">
-								Haggai Maron,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Meirav Galun,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Miri Trope,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Nadav Dym,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Ersin Yumer,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Vladimir G. Kim,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Yaron Lipman
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH 2017
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="html/projects/orbifold_learning/highres.pdf" target="_blank">Paper</a>  | 	
-							
-							<a href="html/projects/orbifold_learning/lowres.pdf" target="_blank">Low Res</a>  | 	
-							
-							<a href="http://www.wisdom.weizmann.ac.il/~haggaim/projects/geometry_learning/code.rar" target="_blank">Code</a> 	
-							
+							<div class="paper-links">
+								
+								<a href="https://arxiv.org/abs/2109.10695" target="_blank">Paper </a>  | 	
+								
+								<a href="https://github.com/mrakotosaon/diff-surface-triangulation" target="_blank">Code</a> 	
+								
+							</div>
+								
 						</div>
-					    	
 					</div>
-				</div>
-		  		
-				<img alt="An embedding of a mesh into a hyperbolic orbifold, which can tile the Poincare-disk model of the hyperbolic plane." class="teaser" src="html/projects/hyperbolic/hyperbolic.jpg"  title="An extension of Tutte&#39;s embedding to hyperbolic domains."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Hyperbolic Orbifold Tutte Embeddings
-					</div>
-					<div class="paper-data">
-						<div class="authors">
-							
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Yaron Lipman
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH Asia 2016
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="html/projects/hyperbolic/hyperbolic.pdf" target="_blank">Paper</a>  | 	
-							
-							<a href="html/projects/hyperbolic/hyperbolic_low.pdf" target="_blank">Low Res</a>  | 	
-							
-							<a href="https://github.com/noamaig/hyperbolic_orbifolds/" target="_blank"> Code </a> 	
-							
+					
+					<img alt="A mesh (left) is paramterized to an initial parameterization (middle) with local inversions of triangles and global overlaps of the boundary, which are then alleviated through our optimization (right). " class="teaser" src="html/opt_global_inj.jpg"  title="A smooth energy that when optimized yields globally-injective parameterizations (without triangles folding over and without parts of the boundaries overlapping one another)."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Optimizing Global Injectivity for Constrained Parameterization
 						</div>
-					    	
-					</div>
-				</div>
-		  		
-				<img alt="An embedding of a mesh into a planar orbifold, which can also be used to generate seamless quads on the mesh." class="teaser" src="html/projects/orbifold/orbifold2.png"  title="An extension of Tutte&#39;s embedding for boundaryless parameterizations of spheres."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Orbifold Tutte Embeddings
-					</div>
-					<div class="paper-data">
-						<div class="authors">
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Xingyi Du,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Danny M. Kaufman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Qingnan Zhou,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Shahar Z. Kovalsky,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Yajie Yan,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Tao Ju
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH ASIA 2021
+							</div>	
 							
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Yaron Lipman
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH Asia 2015
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="html/projects/orbifold/orbifold_highres.pdf" target="_blank">Paper</a>  | 	
-							
-							<a href="html/projects/orbifold/orbifold_lowres.pdf" target="_blank">Low Res</a>  | 	
-							
-							<a href="https://github.com/noamaig/euclidean_orbifolds" target="_blank">Code</a> 	
-							
+							<div class="paper-links">
+								
+								<a href="https://duxingyi-charles.github.io/publication/optimizing-global-injectivity-for-constrained-parameterization/" target="_blank">Project Page </a> 	
+								
+							</div>
+								
 						</div>
-					    	
 					</div>
-				</div>
-		  		
-				<img alt="A large-scale bijective parametrization of a tetrahedral mesh to a ball." class="teaser" src="html/projects/largescale/largescaleBD.jpg"  title="An efficient algorithm for computing large-scale bounded distortion maps of meshes."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Large Scale Bounded Distortion Mappings
-					</div>
-					<div class="paper-data">
-						<div class="authors">
-							
-							
-							<span style="white-space: nowrap;">
-								Shahar Kovalsky,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Ronen Basri,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Yaron Lipman
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH Asia 2015
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="html/projects/largescale/LargeScaleBD.pdf" target="_blank">Paper</a>  | 	
-							
-							<a href="html/projects/largescale/LargeScaleBD_lowRes.pdf" target="_blank">Low Res</a>  | 	
-							
-							<a href="https://shaharkov.github.io/LargeScaleBD.html" target="_blank">Project Page</a> 	
-							
+					
+					<img alt="A sequence of reconstructed surfaces using our algorithm, exhibiting good consistent correspondences between each frame in the sequence them (visualized via texture that exhibits the correspondence)." class="teaser" src="html/temporal.jpg"  title="Given a sequence of points clouds representing a motion of a shape, this algorithm reconstructs a sequence of surfaces that lie in good correspondence with one another (e.g., head in frame 1 corresponds to head in frame 2)."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Temporally-Coherent Surface Reconstruction via Metric-Consistent Atlases
 						</div>
-					    	
-					</div>
-				</div>
-		  		
-				<img alt="Two identical bijective maps between two surface-meshes produced for two different cut placements." class="teaser" src="html/projects/seamless/david_max_small.png"  title="Computing bijections between surface-meshes in a way which is agnostic to the cutting of the meshes."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Seamless Surface Mappings
-					</div>
-					<div class="paper-data">
-						<div class="authors">
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Jan Bednarik,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Vladimir G. Kim,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Siddhartha Chaudhuri,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Shaifali Parashar,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Mathieu Salzmann,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Pascal Fua,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ICCV 2021
+							</div>	
 							
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Roi Poranne,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Yaron Lipman
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH 2015
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="html/projects/seamless/seamless.pdf" target="_blank">Paper</a>  | 	
-							
-							<a href="html/projects/seamless/seamless_lowres.pdf" target="_blank">Low Res</a> 	
-							
+							<div class="paper-links">
+								
+								<a href="https://arxiv.org/abs/2104.06950" target="_blank">Paper </a>  | 	
+								
+								<a href="https://youtu.be/jfNQPTsbM3g" target="_blank">Video</a> 	
+								
+							</div>
+								
 						</div>
-					    	
 					</div>
-				</div>
-		  		
-				<img alt="A low distortion bijective map between two surface-meshes." class="teaser" src="html/projects/lifted/lifted_bijection_small.png"  title="Computing low-distortion bijections between surface-meshes by recovering (&quot;lifting&quot;) these bijections from self-overlapping flattenings."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Lifted Bijections for Low Distortion Surface Mappings
-					</div>
-					<div class="paper-data">
-						<div class="authors">
-							
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Roi Poranne,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Yaron Lipman
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH 2014
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="html/projects/lifted/lifted.pdf" target="_blank">Paper</a>  | 	
-							
-							<a href="html/projects/lifted/lifted_lowres.pdf" target="_blank">Low Res</a> 	
-							
+					
+					<img alt="A 2D brush is swept along a spiraling trajectory (left), tracing the golden horn (right)." class="teaser" src="html/sweep.jpg"  title="An algorithm for robustly computing the total volume occupied by a shape as it&#39;s moving along a trajectory."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Swept Volumes via Spacetime Numerical Continuation
 						</div>
-					    	
-					</div>
-				</div>
-		  		
-				<img alt="The &#39;most conformal&#39; mapping of a volumetric cube, subject to repositioning its eight corners." class="teaser" src="html/projects/cont/cont_sing_small.png"  title="Characterization of convex sets of matrices possessing bounded Singular Values, enabling optimization via Semidefinite Programming."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Controlling Singular Values with Semidefinite Programming
-					</div>
-					<div class="paper-data">
-						<div class="authors">
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Silvia Sellán,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Alec Jacobson
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH 2021
+							</div>	
 							
-							
-							<span style="white-space: nowrap;">
-								Shahar Kovalsky,
-							</span>
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Ronen Basri,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Yaron Lipman
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH 2014
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="html/projects/cont/cont_sing.pdf" target="_blank">Paper</a>  | 	
-							
-							<a href="html/projects/cont/cont_sing_lowres.pdf" target="_blank">Low Res</a>  | 	
-							
-							<a href="http://www.wisdom.weizmann.ac.il/~shaharko/ContSingVal.html" target="_blank">Project Page</a> 	
-							
+							<div class="paper-links">
+								
+								<a href="https://www.dgp.toronto.edu/projects/swept-volumes/" target="_blank">Project Page </a> 	
+								
+							</div>
+								
 						</div>
-					    	
 					</div>
-				</div>
-		  		
-				<img alt="A bounded-distortion, globally bijective map, mapping a tetrahedral mesh to a polycube." class="teaser" src="html/projects/bd3d/bd3d_small.png"  title="An efficient method for projecting an input piecewise-linear map onto the bounded-distortion space."/>
-				<div class="paper-cell">
-					<div class="paper-title">
-						Injective and Bounded Distortion Mappings in 3D
-					</div>
-					<div class="paper-data">
-						<div class="authors">
-							
-							
-							<span style="white-space: nowrap;" class="hi">
-								Noam Aigerman,
-							</span>
-							
-							<span style="white-space: nowrap;">
-								Yaron Lipman
-							</span>
-							
-						</div>		
-						<div class = "venue">
-							ACM SIGGRAPH 2013
-						</div>	
-						
-				 		<div class="paper-links">
-					    	
-							<a href="html/projects/bd3d/bd3d.pdf" target="_blank">Paper</a>  | 	
-							
-							<a href="html/projects/bd3d/bd3d_lowres.pdf" target="_blank">Low Res</a>  | 	
-							
-							<a href="html/projects/bd3d/bd3d.html" target="_blank">Project Page (code + data)</a> 	
-							
+					
+					<img alt="Coarse voxel grids (red) are refined into different types of plants (yellow), based on the input desired style (green)." class="teaser" src="html/decorgan2.jpg"  title="Training a GAN to upsample coarse voxel grids, conditioned on a desired style, to create realistic high-resolution models."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							DECOR-GAN: 3D Shape Detailization by Conditional Refinement
 						</div>
-					    	
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Zhiqin Chen,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Vladimir G. Kim,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Matthew Fisher,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Hao Zhang,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Siddhartha Chaudhuri
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								CVPR 2021 (oral)
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="https://arxiv.org/abs/2012.09159" target="_blank">Paper</a>  | 	
+								
+								<a href="https://github.com/czq142857/DECOR-GAN" target="_blank">Code</a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<img alt="Two surfaces are repsented as 2D-to-3D maps via two overfitted neural networks. Since they are both differentiable,this in turn enables optimizing a surface-to-surface map (via h) in a completely differentiable manner." class="teaser" src="html/neural_surface_maps.jpg"  title="Representing surface maps as neural networks, and optimizing differentiable composition of such maps to compute mappings between surfaces which minimize distortion."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Neural Surface Maps
+						</div>
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Luca Morreale,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Vladimir G. Kim,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Niloy J. Mitra
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								CVPR 2021
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="http://geometry.cs.ucl.ac.uk/projects/2021/neuralmaps/" target="_blank">Project Page </a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<img alt="A point cloud is meshed using our neural network." class="teaser" src="html/DSE.jpg"  title="Using a network to drive local delaunay triangulations of point clouds, which generate a manifold triangulation of the point cloud in a data-driven manner."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							 Learning Delaunay Surface Elements for Mesh Reconstruction 
+						</div>
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Marie-Julie Rakotosaona,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Paul Guerrero,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Niloy J. Mitra,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Maks Ovsjanikov
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								CVPR 2021 (oral)
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="http://www.lix.polytechnique.fr/Labo/Marie-Julie.RAKOTOSAONA/dse_meshing.html" target="_blank">Project Page</a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<img alt="The framework of our method." class="teaser" src="html/retrieve_and_deform.jpg"  title="A neural network is trained to retrieve and deform appropriate models from a database, based on its knowledge of their deformation space and how well can they fit to the target."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Joint Learning of 3D Shape Retrieval and Deformation
+						</div>
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Mikaela Angelina Uy,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Vladimir G. Kim,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Minhyuk Sung,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Siddhartha Chaudhuri,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Leonidas Guibas
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								CVPR 2021
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="https://joint-retrieval-deformation.github.io/" target="_blank">Project Page</a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<img alt="Our method approximates the input heightfield surface (left) by a piecewise-developable heightfield surface (right)." class="teaser" src="html/projects/developability/developability-thumb.jpg"  title="An algorithm that computes heightfields that are  piecewise-developalbe (can be created by bending sheets of paper) from input heightfields. The core theoretical idea uses intuition from compressed sensing, and an observation regarding the low rank of the hessian of developable heightfields. "/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Developability of Heightfields via Rank Minimization
+						</div>
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Silvia Sellán,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Alec Jacobson
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH 2020
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="https://www.dgp.toronto.edu/projects/compressed-developables/" target="_blank">Project Page </a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<img alt="A coarse mesh is subidivided via a neural network, which restores natural geometric features without over-smoothing." class="teaser" src="html/projects/subdiv/neuralSubdiv.jpg"  title="Training a neural network to apply data-driven recursive subdivision operations."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Neural Subdivision
+						</div>
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Hsueh-Ti Derek Liu,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Vladimir G. Kim,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Siddhartha Chaudhuri,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Alec Jacobson
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH 2020
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="https://arxiv.org/abs/2005.01819" target="_blank">Paper</a>  | 	
+								
+								<a href="https://www.dgp.toronto.edu/projects/neural-subdivision/" target="_blank">Code</a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<img alt="Mapping a mesh into a non-convex domain without any inversions, yielding a globally injective map" class="teaser" src="html/projects/TLC/TLC.jpg"  title="An algorithm minimizing an energy designed specifically to recover injectivity of a map."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Lifting Simplices to Find Injectivity
+						</div>
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Xingyi Du,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Qingnan Zhou,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Shahar Kovalsky,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Yajie Yan,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Danny M. Kaufman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Tao Ju
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH 2020
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="https://duxingyi-charles.github.io/publication/lifting-simplices-to-find-injectivity/Lifting-Simplices-to-Find-Injectivity.pdf" target="_blank"> Paper</a>  | 	
+								
+								<a href="https://duxingyi-charles.github.io/publication/lifting-simplices-to-find-injectivity/" target="_blank"> Project Page</a>  | 	
+								
+								<a href="https://github.com/duxingyi-charles/lifting_simplices_to_find_injectivity" target="_blank"> Code</a>  | 	
+								
+								<a href="https://zenodo.org/record/3827969#.Xr7HEBNKjUI" target="_blank"> Data Set </a>  | 	
+								
+								<a href="https://duxingyi-charles.github.io/publication/lifting-simplices-to-find-injectivity/lucy_G.mp4" target="_blank"> Video </a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<img alt="Deforming humanoids to match example poses via a neural network, while preserving details." class="teaser" src="html/projects/ncages/deformation_transfer.jpg"  title="Using cage deformations to enable networks to deform shapes without ruining/smoothing out details."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Neural Cages for Detail-Preserving 3D Deformations
+						</div>
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Wang Yifan,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Vladimir G. Kim,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Siddhartha Chaudhuri,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Olga Sorkine-Hornung
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								CVPR 2020 (oral)
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="html/projects/ncages/paper.pdf" target="_blank">Paper</a>  | 	
+								
+								<a href="https://yifita.github.io/project/neural-shape/" target="_blank">Project Page</a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<img alt="Comparison of reconstruction quality of the hybrid reconstruction versus the two components of the hybrid." class="teaser" src="html/hybrid.jpg"  title="Training a network to jointly reconstruct implicit and explicit surface representations that agree with one another yields superior results."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Coupling Explicit and Implicit Surface Representations for Generative 3D Modeling
+						</div>
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Omid Poursaeed,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Matthew Fisher,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Vladimir G. Kim
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ECCV 2020
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="https://omidpoursaeed.github.io/publication/hybrid/" target="_blank">Project Page</a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<img alt="An embedding of a mesh into a spherical orbifold, which can tile the sphere." class="teaser" src="html/projects/spherical/spherical.jpg"  title="An extension of the orbifold Tutte embeddings to spherical domains."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Spherical Orbifold Tutte Embeddings
+						</div>
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Shahar Kovalsky,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Yaron Lipman
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH 2017
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="html/projects/spherical/highres.pdf" target="_blank">Paper</a>  | 	
+								
+								<a href="html/projects/spherical/lowres.pdf" target="_blank">Low Res</a>  | 	
+								
+								<a href="https://github.com/noamaig/spherical_orbifolds" target="_blank">Code</a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<img alt="A convolution of a filter on a spherical surface is well-defined on the surface&#39;s toric 4-cover." class="teaser" src="html/projects/orbifold_learning/lern2.jpg"  title="Applyig CNN&#39;s to spherical surfaces, by using the orbifold Tutte embeddings to bijectively and seamlessly embed 4 copies of the surface into a square image with cyclic boundary conditions, which enables regular 2D convolution."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Convolutional Neural Networks on Surfaces via Seamless Toric Covers
+						</div>
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Haggai Maron,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Meirav Galun,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Miri Trope,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Nadav Dym,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Ersin Yumer,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Vladimir G. Kim,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Yaron Lipman
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH 2017
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="html/projects/orbifold_learning/highres.pdf" target="_blank">Paper</a>  | 	
+								
+								<a href="html/projects/orbifold_learning/lowres.pdf" target="_blank">Low Res</a>  | 	
+								
+								<a href="http://www.wisdom.weizmann.ac.il/~haggaim/projects/geometry_learning/code.rar" target="_blank">Code</a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<img alt="An embedding of a mesh into a hyperbolic orbifold, which can tile the Poincare-disk model of the hyperbolic plane." class="teaser" src="html/projects/hyperbolic/hyperbolic.jpg"  title="An extension of Tutte&#39;s embedding to hyperbolic domains."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Hyperbolic Orbifold Tutte Embeddings
+						</div>
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Yaron Lipman
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH Asia 2016
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="html/projects/hyperbolic/hyperbolic.pdf" target="_blank">Paper</a>  | 	
+								
+								<a href="html/projects/hyperbolic/hyperbolic_low.pdf" target="_blank">Low Res</a>  | 	
+								
+								<a href="https://github.com/noamaig/hyperbolic_orbifolds/" target="_blank"> Code </a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<img alt="An embedding of a mesh into a planar orbifold, which can also be used to generate seamless quads on the mesh." class="teaser" src="html/projects/orbifold/orbifold2.png"  title="An extension of Tutte&#39;s embedding for boundaryless parameterizations of spheres."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Orbifold Tutte Embeddings
+						</div>
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Yaron Lipman
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH Asia 2015
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="html/projects/orbifold/orbifold_highres.pdf" target="_blank">Paper</a>  | 	
+								
+								<a href="html/projects/orbifold/orbifold_lowres.pdf" target="_blank">Low Res</a>  | 	
+								
+								<a href="https://github.com/noamaig/euclidean_orbifolds" target="_blank">Code</a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<img alt="A large-scale bijective parametrization of a tetrahedral mesh to a ball." class="teaser" src="html/projects/largescale/largescaleBD.jpg"  title="An efficient algorithm for computing large-scale bounded distortion maps of meshes."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Large Scale Bounded Distortion Mappings
+						</div>
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Shahar Kovalsky,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Ronen Basri,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Yaron Lipman
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH Asia 2015
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="html/projects/largescale/LargeScaleBD.pdf" target="_blank">Paper</a>  | 	
+								
+								<a href="html/projects/largescale/LargeScaleBD_lowRes.pdf" target="_blank">Low Res</a>  | 	
+								
+								<a href="https://shaharkov.github.io/LargeScaleBD.html" target="_blank">Project Page</a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<img alt="Two identical bijective maps between two surface-meshes produced for two different cut placements." class="teaser" src="html/projects/seamless/david_max_small.png"  title="Computing bijections between surface-meshes in a way which is agnostic to the cutting of the meshes."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Seamless Surface Mappings
+						</div>
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Roi Poranne,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Yaron Lipman
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH 2015
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="html/projects/seamless/seamless.pdf" target="_blank">Paper</a>  | 	
+								
+								<a href="html/projects/seamless/seamless_lowres.pdf" target="_blank">Low Res</a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<img alt="A low distortion bijective map between two surface-meshes." class="teaser" src="html/projects/lifted/lifted_bijection_small.png"  title="Computing low-distortion bijections between surface-meshes by recovering (&quot;lifting&quot;) these bijections from self-overlapping flattenings."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Lifted Bijections for Low Distortion Surface Mappings
+						</div>
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Roi Poranne,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Yaron Lipman
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH 2014
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="html/projects/lifted/lifted.pdf" target="_blank">Paper</a>  | 	
+								
+								<a href="html/projects/lifted/lifted_lowres.pdf" target="_blank">Low Res</a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<img alt="The &#39;most conformal&#39; mapping of a volumetric cube, subject to repositioning its eight corners." class="teaser" src="html/projects/cont/cont_sing_small.png"  title="Characterization of convex sets of matrices possessing bounded Singular Values, enabling optimization via Semidefinite Programming."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Controlling Singular Values with Semidefinite Programming
+						</div>
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;">
+									Shahar Kovalsky,
+								</span>
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Ronen Basri,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Yaron Lipman
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH 2014
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="html/projects/cont/cont_sing.pdf" target="_blank">Paper</a>  | 	
+								
+								<a href="html/projects/cont/cont_sing_lowres.pdf" target="_blank">Low Res</a>  | 	
+								
+								<a href="http://www.wisdom.weizmann.ac.il/~shaharko/ContSingVal.html" target="_blank">Project Page</a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<img alt="A bounded-distortion, globally bijective map, mapping a tetrahedral mesh to a polycube." class="teaser" src="html/projects/bd3d/bd3d_small.png"  title="An efficient method for projecting an input piecewise-linear map onto the bounded-distortion space."/>
+					<div class="paper-cell">
+						<div class="paper-title">
+							Injective and Bounded Distortion Mappings in 3D
+						</div>
+						<div class="paper-data">
+							<div class="authors">
+								
+								
+								<span style="white-space: nowrap;" class="hi">
+									Noam Aigerman,
+								</span>
+								
+								<span style="white-space: nowrap;">
+									Yaron Lipman
+								</span>
+								
+							</div>		
+							<div class = "venue">
+								ACM SIGGRAPH 2013
+							</div>	
+							
+							<div class="paper-links">
+								
+								<a href="html/projects/bd3d/bd3d.pdf" target="_blank">Paper</a>  | 	
+								
+								<a href="html/projects/bd3d/bd3d_lowres.pdf" target="_blank">Low Res</a>  | 	
+								
+								<a href="html/projects/bd3d/bd3d.html" target="_blank">Project Page (code + data)</a> 	
+								
+							</div>
+								
+						</div>
+					</div>
+					
+					<div class="fancy-border" style="grid-column: 1 / 3;">
+						<span class="heading">Others</span>
+					</div>
+					<img alt="A deformation of a bar." class="teaser" src="html/projects/IGS2016/teaser.jpg"  title="A course on practical aspects of map-computation."/>
+					<div class="paper-cell">
+						<div class="paper-title">Computational Aspects of Mappings</div>
+						<div class="paper-data">
+							Tutorial given at the IGS 2016 summer school (with Shahar Kovalsky)
+							<br/>  <a class="paper-link" data-size="15" href="html/projects/IGS2016/slide.pdf">Slides (pdf)</a> 
+						</div>
 					</div>
 				</div>
-		  		
-				<div class="fancy-border" style="grid-column: 1 / 3;">
-					<span class="heading">Others</span>
-				</div>
-				<img alt="A deformation of a bar." class="teaser" src="html/projects/IGS2016/teaser.jpg"  title="A course on practical aspects of map-computation."/>
-				<div class="paper-cell">
-					<div class="paper-title">Computational Aspects of Mappings</div>
-					<div class="paper-data">
-						Tutorial given at the IGS 2016 summer school (with Shahar Kovalsky)
-						<br/>  <a class="paper-link" data-size="15" href="html/projects/IGS2016/slide.pdf">Slides (pdf)</a> 
-					</div>
-				</div>
-			</div>
-		<a href="https://pbs.twimg.com/media/EoZdmz4XIAIYx16?format=jpg&name=large" target="_blank">Research, in a nutshell</a>
+			<a href="https://pbs.twimg.com/media/EoZdmz4XIAIYx16?format=jpg&name=large" target="_blank">Research, in a nutshell</a>
+		</div>
 	</div>
-</div>
+
 </body>
 </html>
 
